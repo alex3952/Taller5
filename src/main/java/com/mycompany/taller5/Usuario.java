@@ -4,6 +4,9 @@
  */
 package com.mycompany.taller5;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  *
  * @author CltControl
@@ -13,6 +16,8 @@ public class Usuario {
     protected String contraseña;
     protected String nombre;
     protected String apellido;
+    
+    protected List<Incidente> incidentes = new ArrayList();
 
     public Usuario(String usuario, String contraseña, String nombre, String apellido) {
         this.usuario = usuario;

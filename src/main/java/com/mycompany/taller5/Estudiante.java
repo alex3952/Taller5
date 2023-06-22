@@ -4,11 +4,15 @@
  */
 package com.mycompany.taller5;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  *
  * @author CltControl
  */
 public class Estudiante extends PersonalAcademico{
+    private List<Curso> cursos = new ArrayList();
 
     public Estudiante(String usuario, String contraseña, String nombre, String apellido) {
         super(usuario, contraseña, nombre, apellido);
@@ -19,4 +23,8 @@ public class Estudiante extends PersonalAcademico{
     
     public void realizarActividadSumativa(Curso curso, ActividadSumativa actividadSumativa){
     }
+    
+    public void addCurso(Curso curso) {}
+    
+    public void removeCurso(Curso curso) {}
 }

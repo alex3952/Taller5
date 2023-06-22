@@ -20,6 +20,17 @@ public class Incidente {
     protected List log_actualizaciones;
     protected Date fecha_cerrado;
     protected String tipo;
+    protected PersonalAcademico beneficiario;
+    
+    private Usuario responsable;
+
+    public Usuario getResponsable() {
+        return responsable;
+    }
+
+    public void setResponsable(Usuario responsable) {
+        this.responsable = responsable;
+    }
 
     public Incidente(int id, Date fecha_reportado, String estado, String titulo, String descripcion, List log_actualizaciones, Date fecha_cerrado, String tipo) {
         this.id = id;

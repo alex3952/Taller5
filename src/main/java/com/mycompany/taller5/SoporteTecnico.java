@@ -14,7 +14,7 @@ public class SoporteTecnico extends Usuario{
         super(usuario, contraseña, nombre, apellido);
     }
     
-    public void BrindarAsistencia(Usuario usuario){
+    public void brindarAsistencia(Usuario usuario){
     }
     
     public void resolverProblemaTecnico(Usuario usuario){

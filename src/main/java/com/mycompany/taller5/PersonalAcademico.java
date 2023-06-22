@@ -9,6 +9,7 @@ package com.mycompany.taller5;
  * @author CltControl
  */
 public class PersonalAcademico extends Usuario{
+    
 
     public PersonalAcademico(String usuario, String contraseña, String nombre, String apellido) {
         super(usuario, contraseña, nombre, apellido);
