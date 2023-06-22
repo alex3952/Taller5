@@ -4,6 +4,7 @@
  */
 package com.mycompany.taller5;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -37,4 +38,6 @@ public class Profesor extends PersonalAcademico {
     public void seleccionarArchivo() {}
     
     public void subirMaterialEducativo(List<File> archivos, String titulo, String descripcion) {}
+    
+    public void mostrarMaterialEducativo() {}
 }
