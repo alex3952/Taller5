@@ -4,6 +4,9 @@
  */
 package com.mycompany.taller5;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  *
  * @author CltControl
@@ -12,6 +15,12 @@ public class Curso {
     private String id;
     private String nombre;
     private boolean estadoDisponible;
+    
+    private List<Estudiante> estudiantesInscritos = new ArrayList();
+    private List<Estudiante> estudiantesEnEsperaDeInscripcion = new ArrayList();
+    private Profesor responsable;
+    private List<Foro> foros = new ArrayList();
+    private List<ActividadSumativa> actividadesSumativas = new ArrayList();
 
     public Curso(String id, String nombre, boolean estadoDisponible) {
         this.id = id;
