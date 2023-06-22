@@ -4,7 +4,9 @@
  */
 package com.mycompany.taller5;
 
+import java.io.File;
 import java.util.Date;
+import java.util.List;
 
 /**
  *
@@ -27,5 +29,7 @@ public class ActividadSumativa {
         this.id = id;
     }
     
+    public void almacenarMaterialEducativo(List<File> archivos, String titulo, String descripcion) {}
     
+    public void mostrarMensajeError() {}
 }

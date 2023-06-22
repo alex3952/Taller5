@@ -29,4 +29,12 @@ public class Profesor extends PersonalAcademico {
     
     public void crearNuevoForo(Foro foro){
     }
+    
+    public Curso seleccionarCurso(String id) {
+        return null;
+    };
+    
+    public void seleccionarArchivo() {}
+    
+    public void subirMaterialEducativo(List<File> archivos, String titulo, String descripcion) {}
 }

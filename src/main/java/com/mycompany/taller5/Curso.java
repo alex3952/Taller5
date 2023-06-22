@@ -52,5 +52,11 @@ public class Curso {
         this.estadoDisponible = estadoDisponible;
     }
     
+    public void subirActividadSumativa(ActividadSumativa actividadSumativa) {}
     
+    public void mostrarMensajeDeError() {}
+    
+    public ActividadSumativa obtenerActividadSumativa() { return null; }
+    
+    public void mostrarVentanaCargaExitosa() {}
 }
